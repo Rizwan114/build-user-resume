@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resum</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    
+        <h1>Create Dynamic Static Resume By Rizwan Ali</h1>
+
+
+        <form id="resumeForm">
+
+        <fieldset>
+    
+            <legend>Personal Information</legend>
+
+                 <label for="name">Name</label>
+                 <input type="text" id="name" placeholder="Name" required> 
+                  <br> <br>
+                 <label for="Number">CNIC No</label>
+                 <input type="Number" placeholder="CNIC Number">
+                 <br> <br>
+                 <label for="email">Email Address<label>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <br> <br>
+                 <label for="phone">Phone Number</label>
+                 <input type="phone" id="phone" placeholder="Content Number" required>
+
+        </fieldset>
+
+
+            <br><br>
+
+            <fieldset>
+
+                <!-- education -->
+
+            <legend>Education</legend>
+
+            <label for="Education">School Name</label>
+            <!-- <input type="Name" placeholder="Name"> -->
+            <textarea name="Education" id="Education" placeholder="text" rows="4" required></textarea>
+            <br> <br>
+            <label for="Education">Collage Name</label>
+            <textarea name="Education" id="Education" placeholder="text" rows="4" required></textarea>
+            <br> <br>
+            <label for="Education">Univercity</label>
+            <textarea name="Education" id="Education" placeholder="text" rows="4" required></textarea>
+      
+        <br>
+
+        </fieldset>
+        
+        <br>
+
+        <fieldset>
+            <br>
+             <legend>Experience</legend>
+
+                <label for="Experience">Skills</label>
+                <textarea name="Experience" id="Experience" rows="4" placeholder="Your Experience" required></textarea>
+                <br><br>
+
+                <label for="Experience">Comapny Name</label>
+                <textarea name="Experience" id="Experience" rows="4" placeholder="Company Name" required></textarea>
+                <br><br>
+
+
+           
+
+        </fieldset>
+        <br><br>
+       
+
+        <button  type="submit">Submit</button>
+        <button type="reset">Reseat</button>
+        
+          </form>
+
+          <div id="resumeOutput">
+
+          </div>
+    
+          <script src="resume.js"></script>
+</body>
+</html>
